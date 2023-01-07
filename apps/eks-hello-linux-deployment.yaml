@@ -26,7 +26,7 @@ spec:
                       - amd64
                       - arm64
       containers:
-        - name: hello-container
+        - name: hello-image
           image: 588184019567.dkr.ecr.ap-southeast-1.amazonaws.com/hello/helloservice:latest
           ports:
             - name: http
